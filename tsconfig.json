@@ -32,6 +32,8 @@
         "formatOnSave": true
     },
     "files": [
-        "src/index.ts"
+        "src/index.ts",
+        "src/app/RabbitMQPlugin.ts",
+        "typings/index.d.ts"
     ]
 }
