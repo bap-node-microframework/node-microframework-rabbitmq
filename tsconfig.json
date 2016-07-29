@@ -34,6 +34,8 @@
     "files": [
         "src/index.ts",
         "src/app/RabbitMQPlugin.ts",
-        "typings/index.d.ts"
+        "typings/index.d.ts",
+        "src/test/receive.ts",
+        "src/test/send.ts"
     ]
 }

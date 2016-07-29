@@ -6,7 +6,8 @@
   "scripts": {
     "build": "npm run tsc && find . -type f -depth 2 -name '*.ts' | xargs -I {} tsc {} typings/index.d.ts --declaration --module commonjs",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "tsc": "tsc"  },
+    "tsc": "tsc"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/bap-node-microframework/node-microframework-rabbitmq.git"
@@ -18,6 +19,7 @@
   },
   "homepage": "https://github.com/bap-node-microframework/node-microframework-rabbitmq#readme",
   "dependencies": {
+    "amqp-ts": "^1.0.1",
     "bap-node-microframework": "^0.2.0"
   }
 }
