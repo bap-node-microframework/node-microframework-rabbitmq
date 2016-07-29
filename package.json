@@ -1,11 +1,12 @@
 {
-  "name": "node-microframework-rabbitmq",
+  "name": "bap-node-microframework-rabbitmq",
   "version": "0.0.1",
   "description": "RabbitMQ plugin for node-microframework",
   "main": "dist/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
+    "build": "npm run tsc && find . -type f -depth 2 -name '*.ts' | xargs -I {} tsc {} typings/index.d.ts --declaration --module commonjs",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "tsc": "tsc"  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/bap-node-microframework/node-microframework-rabbitmq.git"
