@@ -1,1 +1,1 @@
-export * from './app/RabbitMQPlugin';
+export * from './dist/app/RabbitMQPlugin';

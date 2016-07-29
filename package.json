@@ -1,6 +1,6 @@
 {
   "name": "bap-node-microframework-rabbitmq",
-  "version": "0.0.2",
+  "version": "0.0.4",
   "description": "RabbitMQ plugin for node-microframework",
   "main": "dist/index.js",
   "scripts": {
