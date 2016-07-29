@@ -1,0 +1,22 @@
+{
+  "name": "node-microframework-rabbitmq",
+  "version": "0.0.1",
+  "description": "RabbitMQ plugin for node-microframework",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bap-node-microframework/node-microframework-rabbitmq.git"
+  },
+  "author": "Jules TRUONG",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bap-node-microframework/node-microframework-rabbitmq/issues"
+  },
+  "homepage": "https://github.com/bap-node-microframework/node-microframework-rabbitmq#readme",
+  "dependencies": {
+    "bap-node-microframework": "^0.2.0"
+  }
+}
